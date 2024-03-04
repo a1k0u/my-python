@@ -54,3 +54,14 @@ hello
 18
 19
 20
+$ python3 2.py 2.py
+            print(
+                f"{sys.argv[0]}: cannot open '{path}' for reading: No such file or directory"
+            )
+        else:
+            # Check tail formatting implementation
+            if len(sys.argv) > 2:
+                file_title_newline = '\n' if i != 0 else ''
+                print(f"{file_title_newline}==> {path} <==")
+            with f:
+                print_last_lines(f)

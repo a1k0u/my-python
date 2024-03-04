@@ -24,7 +24,8 @@ if __name__ == "__main__":
             )
         else:
             # Check tail formatting implementation
-            file_title_newline = '\n' if i != 0 else ''
-            print(f"{file_title_newline}==> {path} <==")
+            if len(sys.argv) > 2:
+                file_title_newline = '\n' if i != 0 else ''
+                print(f"{file_title_newline}==> {path} <==")
             with f:
                 print_last_lines(f)
