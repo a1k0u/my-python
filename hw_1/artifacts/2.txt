@@ -1,0 +1,56 @@
+$ python3 2.py 2-1.txt 2-2.txt non-exist.txt
+==> 2-1.txt <==
+Less than 10 lines
+was
+written
+==> 2-2.txt <==
+6
+7
+8
+9
+10
+11
+12
+13
+14
+152.py: cannot open 'non-exist.txt' for reading: No such file or directory
+$ python3 2.py
+1
+2
+3
+hello
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+3
+14
+15
+16
+17
+18
+19
+20
+4
+5
+6
+7
+8
+9
+10
+11
+12
+3
+14
+15
+16
+17
+18
+19
+20

@@ -1,0 +1,13 @@
+$ python3 3.py 1.txt non-exist.txt 2-1.txt 2-2.txt
+  10   96  589 1.txt
+3.py: non-exist.txt: No such file or directory
+   3    6   30 2-1.txt
+  15   15   35 2-2.txt
+  28  117  654 total
+$ python3 3.py 1.txt
+  10   96  589 1.txt
+$ python3 3.py
+hello world!
+check wc implementation
+   2    5   37
+
