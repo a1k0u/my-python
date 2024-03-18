@@ -17,7 +17,7 @@ def generate_pdf_file(table: list[list]):
     Generates pdf file with table and random image.
     """
 
-    filename = "artifacts/2.1"
+    filename = "my_generated_pdf_file"
     file_path = os.path.join(BASE_DIR, f"{filename}")
 
     with open(file_path, "w", encoding="utf-8") as tex:
@@ -38,12 +38,12 @@ def generate_pdf_file(table: list[list]):
         tex.write(tex_table)
         tex.write("\\end{document}")
 
-    # __compile_tex_file(file_path)
-    #
-    # os.remove(file_path)
-    # os.remove(f"{file_path}.log")
-    # os.remove(f"{file_path}.aux")
-    # os.remove(f"{file_path}.png")
+    __compile_tex_file(file_path)
+
+    os.remove(file_path)
+    os.remove(f"{file_path}.log")
+    os.remove(f"{file_path}.aux")
+    os.remove(f"{file_path}.png")
 
 
 if __name__ == "__main__":
