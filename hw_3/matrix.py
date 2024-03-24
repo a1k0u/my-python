@@ -96,7 +96,7 @@ if __name__ == "__main__":
 
     def write_artifacts(artifact, filename):
         with open(filename, "w") as f:
-            f.write(str(artifact))
+            print(artifact, file=f)
 
     np.random.seed(0)
 
