@@ -1,0 +1,48 @@
+ThreadPoolExecutor : n_jobs= 1 result=1.0000000785399288 duration=2.070512294769287
+ProcessPoolExecutor: n_jobs= 1 result=1.0000000785399288 duration=2.0730738639831543
+
+ThreadPoolExecutor : n_jobs= 2 result=1.0000000785398064 duration=3.1139442920684814
+ProcessPoolExecutor: n_jobs= 2 result=1.0000000785398064 duration=1.0952465534210205
+
+ThreadPoolExecutor : n_jobs= 3 result=1.0000000785398058 duration=2.9192898273468018
+ProcessPoolExecutor: n_jobs= 3 result=1.0000000785398058 duration=0.7321059703826904
+
+ThreadPoolExecutor : n_jobs= 4 result=1.000000078539799 duration=2.968013286590576
+ProcessPoolExecutor: n_jobs= 4 result=1.000000078539799 duration=0.6670358180999756
+
+ThreadPoolExecutor : n_jobs= 5 result=1.0000000785398289 duration=2.7955310344696045
+ProcessPoolExecutor: n_jobs= 5 result=1.000000078539829 duration=0.6085374355316162
+
+ThreadPoolExecutor : n_jobs= 6 result=0.9659259251565168 duration=3.1817052364349365
+ProcessPoolExecutor: n_jobs= 6 result=0.9659259251565168 duration=0.8515198230743408
+
+ThreadPoolExecutor : n_jobs= 7 result=1.0000000785398586 duration=2.339869260787964
+ProcessPoolExecutor: n_jobs= 7 result=1.0000000785398586 duration=0.5123310089111328
+
+ThreadPoolExecutor : n_jobs= 8 result=1.0000000785398042 duration=2.692396640777588
+ProcessPoolExecutor: n_jobs= 8 result=1.0000000785398042 duration=0.46669745445251465
+
+ThreadPoolExecutor : n_jobs= 9 result=1.0000000785398135 duration=2.435918092727661
+ProcessPoolExecutor: n_jobs= 9 result=1.0000000785398133 duration=0.5201032161712646
+
+ThreadPoolExecutor : n_jobs=10 result=1.0000000785398198 duration=2.3797268867492676
+ProcessPoolExecutor: n_jobs=10 result=1.0000000785398198 duration=0.48061656951904297
+
+ThreadPoolExecutor : n_jobs=11 result=0.989821531598205 duration=2.62498140335083
+ProcessPoolExecutor: n_jobs=11 result=0.9898215315982052 duration=0.5945091247558594
+
+ThreadPoolExecutor : n_jobs=12 result=1.0000000785398522 duration=2.592731475830078
+ProcessPoolExecutor: n_jobs=12 result=1.0000000785398522 duration=0.48708462715148926
+
+ThreadPoolExecutor : n_jobs=13 result=0.9927089621048809 duration=2.6950771808624268
+ProcessPoolExecutor: n_jobs=13 result=0.9927089621048809 duration=0.5387306213378906
+
+ThreadPoolExecutor : n_jobs=14 result=1.0000000785398893 duration=2.389197587966919
+ProcessPoolExecutor: n_jobs=14 result=1.0000000785398893 duration=0.5714626312255859
+
+ThreadPoolExecutor : n_jobs=15 result=0.9945219821178106 duration=2.5750155448913574
+ProcessPoolExecutor: n_jobs=15 result=0.9945219821178107 duration=0.5185444355010986
+
+ThreadPoolExecutor : n_jobs=16 result=1.00000007853981 duration=2.4084041118621826
+ProcessPoolExecutor: n_jobs=16 result=1.00000007853981 duration=0.6248555183410645
+
